@@ -19,7 +19,7 @@ namespace RaceAlly.Models
         public DateTime PasswordResetTokenExpiration { get; set; }
         public bool IsLocal { get; set; }
         public virtual ICollection<OAuthAccount> OAuthAccounts { get; set; }
-        public ICollection<Role> Roles { get; set; }
-        public ICollection<Race> Races { get; set; }
+        public virtual ICollection<Role> Roles { get; set; }
+        public virtual ICollection<Race> Races { get; set; }
     }
 }

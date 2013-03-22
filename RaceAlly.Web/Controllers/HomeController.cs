@@ -10,7 +10,7 @@ namespace RaceAlly.Web.Controllers
 {
     public class HomeController : Controller
     {
-        private IDataContext _context;
+        private readonly IDataContext _context;
 
         public HomeController(IDataContext context)
         {
@@ -20,11 +20,6 @@ namespace RaceAlly.Web.Controllers
 
         public ActionResult Index()
         {
-            var user = _context.Users.Find(1);
-            var newRace = new Race { Name = "Test Race4", StartDate = DateTime.Now, User = user };
-            _context.Races.Add(newRace);
-            _context.SaveChanges();
-
             ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
 
             return View();
