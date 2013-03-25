@@ -13,9 +13,6 @@
     <description>Improve usability, reliability, conversion rates and security simultaneously by simply asking the user for permission to access their
 			data on 3rd party services rather than asking for their password.</description>
     <summary>Add the role of an OAuth 1.0(a) consumer to a .NET (web) application.</summary>
-    <releaseNotes />
-    <copyright />
-    <language />
     <dependencies>
       <dependency id="DotNetOpenAuth.OAuth.Core" version="[4.2.2.13055]" />
     </dependencies>

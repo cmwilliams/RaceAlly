@@ -12,9 +12,6 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>This package contains shared code for other NuGet packages, and contains no public API in and of itself.</description>
     <summary>Functionality common to implement either an OAuth 1.0 consumer or service provider.</summary>
-    <releaseNotes />
-    <copyright />
-    <language />
     <dependencies>
       <dependency id="DotNetOpenAuth.Core" version="[4.2.2.13055]" />
     </dependencies>
